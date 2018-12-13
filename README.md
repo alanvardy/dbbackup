@@ -33,4 +33,4 @@ You will be asked to authorize gdrive to access your Google Drive the first time
 
 ## Licence
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+This work is licensed under the MIT License. See LICENSE.md for more details.
