@@ -28,3 +28,5 @@ Run that script
 ```bash
 ./dbbackup.sh
 ```
+
+You will be asked to authorize gdrive to access your Google Drive the first time you run it.
