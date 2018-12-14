@@ -19,9 +19,12 @@ cd $DATE
 ../lib/heroku.sh
 ../lib/dokku.sh
 
+#gzip files
+tar czvf ${DATE}.tar.gz *
+
 # Upload to Google Drive
-cd ..
-lib/gdrive upload --parent $google_folder $DATE --recursive
+../lib/gdrive upload --parent $google_folder ${DATE}.tar.gz
 
 # Delete backups folder from drive
+cd ..
 rm -rf $DATE
