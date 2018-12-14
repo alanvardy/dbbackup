@@ -1,5 +1,5 @@
 # dbbackup
-Shell script that automagically backs up Postgres databases on Dokku and Heroku and uploads to Google Drive
+Shell script that automagically backs up Postgres databases on Dokku and Heroku and uploads to Google Drive. It gzips the files before uploading to get around the Google Drive API call frequency limitations.
 
 gdrive file is sourced from https://github.com/prasmussen/gdrive
 
